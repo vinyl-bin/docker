@@ -11,7 +11,7 @@ or
 
 <try1 설명2>
 1. 이미지 pull하기(링크 복사 붙여넣기)
-2. # docker run -t -i --name <원하는 이름> -p <호스트포트>:<컨테이너포트> <저장소이름(생략가능)/이미지 이름:이미지 버전
+2. '# docker run -t -i --name <원하는 이름> -p <호스트포트>:<컨테이너포트> <저장소이름(생략가능)/이미지 이름:이미지 버전'   
     ex) docker run -t -i --name new -p 5555:6666 ghcr.io/vinyl-bin/try1:latest
 3. cd home/app2
 4. vim index.js
